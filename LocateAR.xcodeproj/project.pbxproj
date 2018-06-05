@@ -7,15 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19855C7CBD0E10C17CFBEAE0 /* Pods_LocateAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE014B53A017BF9A9D123D35 /* Pods_LocateAR.framework */; };
 		5B40972C20C5F33500756341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40972B20C5F33500756341 /* AppDelegate.swift */; };
 		5B40972E20C5F33500756341 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B40972D20C5F33500756341 /* art.scnassets */; };
 		5B40973020C5F33500756341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40972F20C5F33500756341 /* ViewController.swift */; };
 		5B40973320C5F33500756341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B40973120C5F33500756341 /* Main.storyboard */; };
 		5B40973520C5F33700756341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B40973420C5F33700756341 /* Assets.xcassets */; };
 		5B40973820C5F33700756341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B40973620C5F33700756341 /* LaunchScreen.storyboard */; };
+		5B40975220C5F72B00756341 /* Local Podspecs in Resources */ = {isa = PBXBuildFile; fileRef = 5B40974120C5F72A00756341 /* Local Podspecs */; };
+		5B40975320C5F72B00756341 /* ARCL in Resources */ = {isa = PBXBuildFile; fileRef = 5B40974B20C5F72B00756341 /* ARCL */; };
+		5B40975420C5F72B00756341 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = 5B40974C20C5F72B00756341 /* Manifest.lock */; };
+		5B40975520C5F72B00756341 /* Target Support Files in Resources */ = {isa = PBXBuildFile; fileRef = 5B40974D20C5F72B00756341 /* Target Support Files */; };
+		5B40975620C5F72B00756341 /* Headers in Resources */ = {isa = PBXBuildFile; fileRef = 5B40974E20C5F72B00756341 /* Headers */; };
+		5B40975720C5F72B00756341 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5B40974F20C5F72B00756341 /* Podfile */; };
+		5B40975820C5F72B00756341 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 5B40975020C5F72B00756341 /* Podfile.lock */; };
+		5B40975920C5F72B00756341 /* LocateAR.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 5B40975120C5F72B00756341 /* LocateAR.xcworkspace */; };
+		5B40975E20C6050900756341 /* NotSupportedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B40975D20C6050900756341 /* NotSupportedViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5B40974720C5F72B00756341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B40974220C5F72A00756341 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3CC87E804C5C682A0856FC6EC1ADD9A7;
+			remoteInfo = ARCL;
+		};
+		5B40974920C5F72B00756341 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B40974220C5F72A00756341 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4087780413273DA71B8544BFBF285D84;
+			remoteInfo = "Pods-LocateAR";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		32C6ED6EE8BCC69710ED688E /* Pods-LocateAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocateAR/Pods-LocateAR.debug.xcconfig"; sourceTree = "<group>"; };
 		5B40972820C5F33500756341 /* LocateAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocateAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B40972B20C5F33500756341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B40972D20C5F33500756341 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +52,18 @@
 		5B40973420C5F33700756341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B40973720C5F33700756341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B40973920C5F33700756341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B40974120C5F72A00756341 /* Local Podspecs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Local Podspecs"; path = "Pods/Local Podspecs"; sourceTree = "<group>"; };
+		5B40974220C5F72A00756341 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		5B40974B20C5F72B00756341 /* ARCL */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ARCL; path = Pods/ARCL; sourceTree = "<group>"; };
+		5B40974C20C5F72B00756341 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Manifest.lock; path = Pods/Manifest.lock; sourceTree = "<group>"; };
+		5B40974D20C5F72B00756341 /* Target Support Files */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Target Support Files"; path = "Pods/Target Support Files"; sourceTree = "<group>"; };
+		5B40974E20C5F72B00756341 /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = Pods/Headers; sourceTree = "<group>"; };
+		5B40974F20C5F72B00756341 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		5B40975020C5F72B00756341 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		5B40975120C5F72B00756341 /* LocateAR.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = LocateAR.xcworkspace; sourceTree = "<group>"; };
+		5B40975D20C6050900756341 /* NotSupportedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotSupportedViewController.swift; sourceTree = "<group>"; };
+		EE014B53A017BF9A9D123D35 /* Pods_LocateAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocateAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8CC3A67462BBB67333C9E0 /* Pods-LocateAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocateAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocateAR/Pods-LocateAR.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19855C7CBD0E10C17CFBEAE0 /* Pods_LocateAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +83,8 @@
 			children = (
 				5B40972A20C5F33500756341 /* LocateAR */,
 				5B40972920C5F33500756341 /* Products */,
+				5CCDAF2AD4401995D8777C45 /* Pods */,
+				91A75AA17908AA283821C6F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +102,48 @@
 				5B40972B20C5F33500756341 /* AppDelegate.swift */,
 				5B40972D20C5F33500756341 /* art.scnassets */,
 				5B40972F20C5F33500756341 /* ViewController.swift */,
+				5B40975D20C6050900756341 /* NotSupportedViewController.swift */,
 				5B40973120C5F33500756341 /* Main.storyboard */,
 				5B40973420C5F33700756341 /* Assets.xcassets */,
 				5B40973620C5F33700756341 /* LaunchScreen.storyboard */,
 				5B40973920C5F33700756341 /* Info.plist */,
 			);
 			path = LocateAR;
+			sourceTree = "<group>";
+		};
+		5B40974320C5F72A00756341 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B40974820C5F72B00756341 /* ARCL.framework */,
+				5B40974A20C5F72B00756341 /* Pods_LocateAR.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CCDAF2AD4401995D8777C45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B40974B20C5F72B00756341 /* ARCL */,
+				5B40974E20C5F72B00756341 /* Headers */,
+				5B40974120C5F72A00756341 /* Local Podspecs */,
+				5B40975120C5F72B00756341 /* LocateAR.xcworkspace */,
+				5B40974C20C5F72B00756341 /* Manifest.lock */,
+				5B40974F20C5F72B00756341 /* Podfile */,
+				5B40975020C5F72B00756341 /* Podfile.lock */,
+				5B40974220C5F72A00756341 /* Pods.xcodeproj */,
+				5B40974D20C5F72B00756341 /* Target Support Files */,
+				32C6ED6EE8BCC69710ED688E /* Pods-LocateAR.debug.xcconfig */,
+				FD8CC3A67462BBB67333C9E0 /* Pods-LocateAR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91A75AA17908AA283821C6F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE014B53A017BF9A9D123D35 /* Pods_LocateAR.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B40973C20C5F33700756341 /* Build configuration list for PBXNativeTarget "LocateAR" */;
 			buildPhases = (
+				CFED1DBBDD4CDDED76AC5905 /* [CP] Check Pods Manifest.lock */,
 				5B40972420C5F33500756341 /* Sources */,
 				5B40972520C5F33500756341 /* Frameworks */,
 				5B40972620C5F33500756341 /* Resources */,
+				C0C0B8910AFCEC9A273554CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,6 +194,12 @@
 			mainGroup = 5B40971F20C5F33500756341;
 			productRefGroup = 5B40972920C5F33500756341 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5B40974320C5F72A00756341 /* Products */;
+					ProjectRef = 5B40974220C5F72A00756341 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5B40972720C5F33500756341 /* LocateAR */,
@@ -120,19 +207,83 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		5B40974820C5F72B00756341 /* ARCL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ARCL.framework;
+			remoteRef = 5B40974720C5F72B00756341 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5B40974A20C5F72B00756341 /* Pods_LocateAR.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_LocateAR.framework;
+			remoteRef = 5B40974920C5F72B00756341 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		5B40972620C5F33500756341 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B40975720C5F72B00756341 /* Podfile in Resources */,
 				5B40972E20C5F33500756341 /* art.scnassets in Resources */,
 				5B40973820C5F33700756341 /* LaunchScreen.storyboard in Resources */,
 				5B40973520C5F33700756341 /* Assets.xcassets in Resources */,
+				5B40975620C5F72B00756341 /* Headers in Resources */,
+				5B40975520C5F72B00756341 /* Target Support Files in Resources */,
+				5B40975820C5F72B00756341 /* Podfile.lock in Resources */,
 				5B40973320C5F33500756341 /* Main.storyboard in Resources */,
+				5B40975420C5F72B00756341 /* Manifest.lock in Resources */,
+				5B40975320C5F72B00756341 /* ARCL in Resources */,
+				5B40975220C5F72B00756341 /* Local Podspecs in Resources */,
+				5B40975920C5F72B00756341 /* LocateAR.xcworkspace in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0C0B8910AFCEC9A273554CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LocateAR/Pods-LocateAR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocateAR/Pods-LocateAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFED1DBBDD4CDDED76AC5905 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocateAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B40972420C5F33500756341 /* Sources */ = {
@@ -141,6 +292,7 @@
 			files = (
 				5B40973020C5F33500756341 /* ViewController.swift in Sources */,
 				5B40972C20C5F33500756341 /* AppDelegate.swift in Sources */,
+				5B40975E20C6050900756341 /* NotSupportedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +434,7 @@
 		};
 		5B40973D20C5F33700756341 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32C6ED6EE8BCC69710ED688E /* Pods-LocateAR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,7 +444,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = demo.ARPoints.LocateAR;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.ARPoints;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,6 +453,7 @@
 		};
 		5B40973E20C5F33700756341 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD8CC3A67462BBB67333C9E0 /* Pods-LocateAR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,7 +463,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = demo.ARPoints.LocateAR;
+				PRODUCT_BUNDLE_IDENTIFIER = demo.ARPoints;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
